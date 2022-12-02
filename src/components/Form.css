@@ -1,0 +1,74 @@
+.heading {
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: .8px;
+}
+
+.toDoTable,
+.toDoTable td {
+    border: .2px solid green;
+    padding: 5px;
+    letter-spacing: 1px;
+    border-collapse: collapse;
+}
+.toDoTable thead {
+    font-weight: 600;
+
+}
+
+.toDoTable {
+    width: 60%;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.taskButton {
+    background-color: #404258;
+    color: white;
+    height: 35px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.likeIcon {
+    height: 20px;
+    width: 20px;
+    fill-rule: evenodd;
+}
+
+.removeIcon {
+    height: 20px;
+    width: 20px;
+}
+
+.removeIcon:hover {
+    fill: red;
+    fill-rule: evenodd;
+}
+
+input {
+    border: none;
+    border-bottom: 1.5px solid #404258;
+}
+
+input:focus {
+    border: none;
+    border-bottom: 2px solid blue;
+    outline: none;
+}
+
+.submitButton {
+    display: block;
+    margin: 20px auto;
+    padding: 3px;
+    background-color: #404258;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    width: 70px;
+}
+.submitButton:hover {
+    cursor: pointer;
+}
